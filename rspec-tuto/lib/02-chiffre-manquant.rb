@@ -7,14 +7,13 @@
 #       [5, 3, 2, 1, 4] => 6
 def missing_number(array)
 
-  puts "Sorry this is not an array " if !array.is_a?(Array)
-
+  puts "Sorry this is not an array " unless array.is_a?(Array)
 
   array = array.sort!
   i = 0
   l = array.length
 
-  while i < l - 1
+  while i < l - 1 do
     result = array[i] + 1 unless (array[i] + 1) == array[i + 1]
     i += 1
   end
