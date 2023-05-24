@@ -12,5 +12,5 @@ task :run do
 end
 
 task :test do
-  ruby 'test/ruby_program_test.rb'
+  rspec
 end
