@@ -4,18 +4,20 @@
 #       - Pour les multiples de 5, afficher "cinq"
 #       - pour les multiples de 15, afficher "burger"
 
-list = (1..87).to_a
+class Multiples
+  def list
+    list = (1..87).to_a
 
-result = list.map do |n|
-  if n % 15 == 0
-    "burger"
-  elsif n % 5 == 0
-    "cinq"
-  elsif n % 3 == 0
-    "trois"
-  else
-    n
+    result = list.map do |n|
+      if n % 15 == 0
+        "burger"
+      elsif n % 5 == 0
+        "cinq"
+      elsif n % 3 == 0
+        "trois"
+      else
+        n
+      end
+    end
   end
 end
-
-puts result
