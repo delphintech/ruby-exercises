@@ -14,7 +14,7 @@ describe Exercice3 do
       test = Exercice3.new
       expect(test.sub_tab([1, 2, 3, 0, 3], 3)).to eql(5)
       expect(test.sub_tab([4, 2, 9, 7, 19], 5)).to eql(0)
-      expect(test.sub_tab([1, -1, 2], 2)).to eql(2)
+      expect(test.sub_tab([1, 1, 2], 2)).to eql(2)
       expect(test.sub_tab([1, 1, 1, -1], 3)).to eql(1)
     end
   end

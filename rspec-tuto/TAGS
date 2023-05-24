@@ -1,0 +1,16 @@
+
+lib/02_chiffre_manquant.rb,77
+class Exercice2Exercice27,0
+  def missing_number(array)missing_number8,0
+
+lib/01_multiples.rb,50
+class Exercice1Exercice15,0
+  def listlist6,0
+
+lib/calculator.rb,63
+class CalculatorCalculator2,0
+  def add(a, b, c = 0)add3,0
+
+lib/03_sous_tableaux.rb,66
+class Exercice3Exercice38,0
+  def sub_tab(array, k)sub_tab9,0
